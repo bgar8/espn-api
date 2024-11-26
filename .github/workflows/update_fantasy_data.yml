@@ -1,0 +1,5 @@
+- name: Run fantasy data extractor
+  env:
+    ESPN_S2: ${{ secrets.ESPN_S2 }}
+    SWID: ${{ secrets.SWID }}
+    GOOGLE_FOLDER_ID: ${{ secrets.GOOGLE_FOLDER_ID }} 

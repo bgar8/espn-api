@@ -1,0 +1,11 @@
+language = "python3"
+entrypoint = "fantasy_data_extractor.py"
+run = "python fantasy_data_extractor.py"
+modules = ["python-3.11"]
+
+[nix]
+channel = "stable-22_11"
+
+[deployment]
+run = ["python3", "fantasy_data_extractor.py"]
+deploymentTarget = "cloudrun"

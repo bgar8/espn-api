@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "fantasy-football-data"
+version = "0.1.0"
+description = "ESPN Fantasy Football Data Extractor"
+authors = ["Your Name"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+espn_api = "*"
+pandas = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

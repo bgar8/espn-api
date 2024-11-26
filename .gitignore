@@ -1,9 +1,6 @@
 # Sensitive files
 client_secrets.json
 stella_service_account.json
-service_account.json
-*.json
-!credentials_example.json
 token.pickle
 *.dat
 
